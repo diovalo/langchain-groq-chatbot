@@ -2,6 +2,13 @@
 
 A chatbot implementation using LangChain and Groq's LLM, with a Streamlit interface.
 
+## Features
+- Interactive chat interface
+- Conversation memory
+- Custom prompt templates
+- Model selection
+- Groq LLM integration
+
 ## Setup
 1. Clone the repository
 2. Create a virtual environment: `python -m venv venv`
@@ -10,8 +17,5 @@ A chatbot implementation using LangChain and Groq's LLM, with a Streamlit interf
 5. Add your Groq API key to `.env` file
 6. Run the app: `streamlit run app.py`
 
-## Features
-- Interactive chat interface
-- Conversation memory
-- Custom prompt templates
-- Groq LLM integration
+## Environment Variables
+Create a `.env` file with:

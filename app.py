@@ -1,12 +1,9 @@
 import os
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain.memory 
-import ConversationBufferMemory
-from langchain.chains 
-import ConversationChain
-from langchain.prompts 
-import PromptTemplate
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import ConversationChain
+from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -27,7 +24,7 @@ if "conversation" not in st.session_state:
     # Initialize Groq LLM
     llm = ChatGroq(
         api_key=os.getenv("GROQ_API_KEY"),
-        model_name="mixtral-8x7b-32768",  # or your preferred Groq model
+        model_name="mixtral-8x7b-32768",
         temperature=0.7
     )
 
@@ -68,7 +65,7 @@ with st.sidebar:
     - Streamlit for the user interface
     """)
     
-    # Add model selection if desired
+    # Add model selection
     model = st.selectbox(
         "Select Groq Model",
         ["mixtral-8x7b-32768", "llama2-70b-4096"]
