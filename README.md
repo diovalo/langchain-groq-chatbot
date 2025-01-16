@@ -5,7 +5,7 @@ A chatbot implementation using LangChain with multiple LLM providers (Groq and G
 ## Features
 - Multiple AI model support:
   - Groq's mixtral-8x7b-32768
-  - Groq's llama2-70b-4096
+  - Groq's llama-3.3-70b-versatile
   - Google's Gemini Pro
 - Interactive chat interface
 - Conversation memory
