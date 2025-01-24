@@ -10,4 +10,4 @@ venv/
 
 .vscode/
 
-
+astra_credentials.json

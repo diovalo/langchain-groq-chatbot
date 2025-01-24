@@ -1,0 +1,12 @@
+streamlit
+langchain-groq
+langchain-google-genai
+python-dotenv
+pillow
+pytesseract
+pypdf
+moviepy
+langchain_community
+sentence-transformers
+langchain-huggingface
+langchain-astradb
